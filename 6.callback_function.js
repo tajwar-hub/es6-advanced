@@ -22,6 +22,7 @@ function pastAcademicInfo() {
     ssc: "5.00",
     hsc: "5.00",
   };
+
   console.log(academicInfo);
 }
 
@@ -30,12 +31,12 @@ function pastAcademicInfo() {
 
 function calculator(a, b, cb) {
   let sum = a + b;
-  cb(sum)
+  cb(sum);
 }
 
 function displayResult(result) {
   console.log(result);
 }
 
-calculator(5, 5, displayResult)
-calculator(50, 10, displayResult)
+calculator(5, 5, displayResult);
+calculator(50, 10, displayResult);

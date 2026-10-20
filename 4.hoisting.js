@@ -1,4 +1,3 @@
-
 console.log(age);
 var age = 26;
 
@@ -7,11 +6,8 @@ const name = "Utsho";
 
 console.log(add(50, 50));
 
-function add(a, b){
-    return a+b
+function add(a, b) {
+  return a + b;
 }
-
-
-
 
 console.log(add(10, 20));
